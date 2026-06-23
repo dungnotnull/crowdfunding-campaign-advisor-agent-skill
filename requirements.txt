@@ -1,0 +1,19 @@
+# Crowdfunding Campaign Advisor - Python Dependencies
+# Core skill files require no external dependencies
+# These are optional for the knowledge updater tool
+
+# Optional: For enhanced knowledge fetching
+crawl4ai>=0.2.0  # Web crawling for knowledge updater
+
+# Standard library (no installation needed):
+# - urllib3 (for HTTP requests)
+# - hashlib (for URL/DOI hashing)
+# - json (for JSON parsing)
+# - re (for regex operations)
+# - datetime (for timestamps)
+# - pathlib (for file operations)
+
+# Development dependencies (optional):
+# pytest>=7.0.0  # For testing (if adding Python unit tests)
+# black>=22.0.0  # Code formatting
+# mypy>=0.950  # Type checking

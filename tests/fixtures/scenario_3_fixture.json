@@ -1,0 +1,96 @@
+{
+  "scenario_id": "scenario_3",
+  "description": "",
+  "input": {
+    "scenario_context": ""
+  },
+  "output": {
+    "executive_summary": {
+      "verdict": "Needs improvement",
+      "headline_score": 58
+    },
+    "multi_dimensional_score": {
+      "audience_alignment": {
+        "score": 40,
+        "framework": "Pre-launch funnel, audience-building research",
+        "evidence": [
+          "Mollick 2014 - early backer momentum",
+          "Platform stats - pre-launch conversion"
+        ]
+      },
+      "narrative_quality": {
+        "score": 65,
+        "framework": "AIDA / story-driven narrative",
+        "evidence": [
+          "Marketing research - problem-solution structure",
+          "Case studies - emotional hooks"
+        ]
+      },
+      "reward_structure": {
+        "score": 70,
+        "framework": "Reward-tier laddering and price-anchoring",
+        "evidence": [
+          "Platform guidelines - tier distribution",
+          "Fulfillment cost analysis"
+        ]
+      },
+      "goal_realism": {
+        "score": 80,
+        "framework": "Funding-goal modeling vs fulfillment cost",
+        "evidence": [
+          "Success rate studies - goal sizing",
+          "Margin analysis - fulfillment"
+        ]
+      },
+      "launch_readiness": {
+        "score": 35,
+        "framework": "Pre-launch funnel and first 48 hours momentum",
+        "evidence": [
+          "Launch timing research",
+          "Audience building best practices"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "type": "strength",
+        "dimension": "audience",
+        "description": "Clear target backer profile"
+      },
+      {
+        "type": "risk",
+        "dimension": "launch",
+        "description": "Limited pre-launch audience"
+      }
+    ],
+    "improvement_roadmap": [
+      {
+        "action": "Build pre-launch email list",
+        "impact": "High",
+        "effort": "Medium"
+      },
+      {
+        "action": "Strengthen opening hook",
+        "impact": "Medium",
+        "effort": "Low"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Mollick, E. (2014). The dynamics of crowdfunding...",
+        "type": "academic"
+      },
+      {
+        "citation": "Kickstarter Creator Handbook",
+        "type": "platform"
+      }
+    ]
+  },
+  "gate_results": {
+    "evidence_gate": "pass",
+    "framework_gate": "pass",
+    "challenge_gate": "pass",
+    "output_format_gate": "pass"
+  },
+  "timestamp": "2026-06-23T18:32:25.072743"
+}

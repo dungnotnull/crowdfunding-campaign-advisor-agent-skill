@@ -1,0 +1,68 @@
+# Crowdfunding Campaign Advisor - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Claude
+.claude/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Project specific
+tests/fixtures/*.json  # Ignore fixture JSON files (generated)
+!tests/fixtures/.gitkeep  # Keep directory structure
+
+# Knowledge updater cache (if any)
+.cache/
+*.cache
+
+# Backup files
+*.backup
+*.old
